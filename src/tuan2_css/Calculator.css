@@ -1,0 +1,81 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Calculator {
+  font-family: Consolas, Courier;
+  background-color: black;
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: 10px 11px 55px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 400px;
+}
+/* .display {
+  margin: 5px 0px 0px 0px;
+  overflow: hidden;
+} */
+#display {
+  border: none;
+  background-color: transparent;
+  text-align: right;
+  color: white;
+  width: 90%;
+  font-size: 2.5rem;
+  overflow: hidden;
+  outline: none;
+}
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px 25px 10px 25px;
+}
+.keys button {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: none;
+  color: white;
+  background-color: hsl(220, 13%, 18%);
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+.keys button:nth-last-child(3) {
+  padding-left: 28px;
+  text-align: left;
+  grid-column: 1 / span 2;
+  width: 150px;
+  border-radius: 35px;
+}
+.keys button:last-child {
+  grid-column: 4;
+}
+.keys button:hover {
+  background-color: hsl(220, 13%, 28%);
+}
+.keys button:active {
+  background-color: hsl(220, 13%, 38%);
+}
+.keys button.operator-btn {
+  background-color: hsl(33, 95%, 53%);
+}
+.keys button.operator-btn:hover {
+  background-color: hsl(33, 95%, 63%);
+}
+.keys button.operator-btn:active {
+  background-color: hsl(33, 95%, 73%);
+}
+.keys button.operator-btn-alt {
+  background-color: hsl(60, 2%, 54%);
+}
+.keys button.operator-btn-alt:hover {
+  background-color: hsl(60, 2%, 64%);
+}
+.keys button.operator-btn-alt:active {
+  background-color: hsl(60, 2%, 74%);
+}
