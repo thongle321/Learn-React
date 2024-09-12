@@ -1,37 +1,6 @@
-//import "../../tuan2_css/Calculator.css";
+import "../../tuan2_css/Calculator.css";
 import { useState } from "react";
 export default function Calculator() {
-	// const [number1, setNumber1] = useState(0)
-	// const [number2, setNumber2] = useState(0)
-	// const [result, setResult] = useState(0)
-	// const Calculate = (operator) => {
-	//     let num1 = parseFloat(number1)
-	//     let num2 = parseFloat(number2)
-	//     switch(operator) {
-	//         case '+':
-	//             setResult(num1+num2)
-	//             break
-	//         case '-':
-	//             setResult(num1-num2)
-	//             break
-	//         case '*':
-	//             setResult(num1*num2)
-	//             break
-	//         case '/':
-	//             if(num2 == 0)
-	//             {
-	//                 alert("Can't divide by 0")
-	//             }
-	//             else {
-	//                 setResult(num1/num2)
-	//                 break
-	//             }
-
-	//     }
-	// }
-	// const Input = (e, setState) => {
-	//     setState(e.target.value)
-	// }
 	const [inputValue, setInputValue] = useState("");
 	const input = (value) => {
 		setInputValue(inputValue + value.target.innerHTML);
