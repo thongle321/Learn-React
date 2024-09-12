@@ -1,4 +1,4 @@
-import "../../tuan2_css/Calculator.css";
+//import "../../tuan2_css/Calculator.css";
 import { useState } from "react";
 export default function Calculator() {
 	// const [number1, setNumber1] = useState(0)
