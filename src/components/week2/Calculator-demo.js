@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState } from "react"
+
 export default function Calculatordemo() {
     const [number1, setNumber1] = useState('')
     const [number2, setNumber2] = useState('')
@@ -42,7 +43,7 @@ export default function Calculatordemo() {
             <button disabled={!valid || !valid2} onClick={() => Calculate("+")}>+</ button>
             <button disabled={!valid || !valid2} onClick={() => Calculate("-")}>-</ button>
             <button disabled={!valid || !valid2} onClick={() => Calculate("*")}>*</ button>
-            <button disabled={!valid || !valid2} onClick={() => Calculate("/")}>/</ button>
+          <button disabled={!valid || !valid2} onClick={() => Calculate("/")}>/</ button>
             <p>{result}</p>
         </div>
     );

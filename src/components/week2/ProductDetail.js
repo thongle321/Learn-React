@@ -1,8 +1,9 @@
 export default function ProductDetail({ product }) {
-  return (
-    <div className="Detail">
-      <a href={`/product-info/?id=${product.Id}`}>{product.Name}</a>
-      <b>{product.Price}</b>
-    </div>
-  );
+	return (
+		<div className="Detail">
+			<b>{product.Id}</b>
+			<b>{product.Name}</b>
+			<b>{product.Price}</b>
+		</div>
+	);
 }
