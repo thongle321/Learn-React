@@ -4,9 +4,9 @@ const data = [
     { Id: 1, Name: "Instant Noodles", Price: 50000, Description: "ngon" },
     { Id: 2, Name: "Ramen Noodles", Price: 30000,  Description: "ngon" },
     { Id: 3, Name: "Udon Noodles", Price: 40000,  Description: "ngon" },
-    { Id: 4, Name: "Instant Noodles", Price: 50000, Description: "ngon"  },
-    { Id: 5, Name: "Ramen Noodles", Price: 30000,  Description: "ngon" },
-    { Id: 6, Name: "Udon Noodles", Price: 40000,  Description: "ngon" },
+    { Id: 4, Name: "Samyang Noodles", Price: 50000, Description: "ngon"  },
+    { Id: 5, Name: "Miliket Noodles", Price: 30000,  Description: "ngon" },
+    { Id: 6, Name: "Umachan Noodles", Price: 40000,  Description: "ngon" },
 ];
 export default function ProductCRUD({ }) {
     const [products, setProducts] = useState(data);
